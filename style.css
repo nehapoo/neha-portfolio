@@ -25,26 +25,34 @@ img {
 
 .card {
     background-color: #ffffff;
-    max-width: 600px;
-    margin: 40px auto;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
     border: 1px solid #e0e0e0;
-    max-width: 300px;
+    flex: 1 1 250px;
+    min-width: 250px;
+    max-width: 400px;
 }
 
 .card-one {
-    flex: 1 1 0;
+    background-color: #ffffff;
 }
 
 .card-two {
-  flex: 2 1 0;
-    background-color: #ffe0b2;
+  background-color: #ffe0b2;
 }
 .container {
   display: flex;
   flex-wrap: nowrap;
   gap: 10px;
   justify-content: center;
+}
+
+.projects{
+    padding-left: 20px;
+}
+
+.projects li{
+    margin-bottom: 10px;
+    line-height: 1.5;
 }
